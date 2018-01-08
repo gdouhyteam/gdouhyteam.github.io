@@ -1,0 +1,98 @@
+*{
+  margin: 0px;
+}
+
+.background{
+  background-image: url(./image/bg.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 680px;
+  color: white;
+}
+
+.navbar{
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.nav-left{
+  width: 41%;
+  float: left;
+  padding-top: 10px;
+}
+
+.nav-left span{
+  list-style-type:none;
+  float: right;
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.navbar .title{
+  color: white;
+  font-size: 35px;
+  width: 18%;
+  float: left;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.nav-right{
+  width: 41%;
+  float: left;
+  padding-top: 10px;
+}
+
+.nav-right span{
+  list-style-type:none;
+  float: left;
+  margin-right: 30px;
+  color: white;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+  text-align:center;
+  overflow: hidden;
+}
+
+.float-container{
+  overflow: hidden;
+}
+
+.title{
+  color: white;
+  font-size: 80px;
+  float: left;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.description{
+  float: right;
+  font-size: 25px;
+}
+
+.join-us{
+  margin-top: 100px;
+  background: transparent; /*完全透明*/
+  width: 180px;
+  height: 80px;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  outline:none;
+  cursor:pointer;
+}
+
+.join-us:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
