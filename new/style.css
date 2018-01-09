@@ -60,12 +60,6 @@ img{
   cursor:pointer;
 }
 
-.container{
-  width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .text-center{
   margin: 0 auto;
   text-align:center;
@@ -123,13 +117,7 @@ img{
   border-left: 60px solid transparent;
 }
 
-.row{
-  width: 100%;
-  clear: both;
-  overflow: hidden;
-}
-
-.col-3-md{
+/* .col-3-md{
   float: left;
   width:25%;
 }
@@ -138,7 +126,7 @@ img{
   float: left;
   width:40%;
 
-}
+} */
 
 .research-area{
   margin-top: -110px;
@@ -160,7 +148,7 @@ img{
   background-color: whitesmoke;
   padding: 20px;
   color: black;
-  margin: 30px;
+  margin: 10px;
   border-radius: 5px;
   min-height: 180px;
 }

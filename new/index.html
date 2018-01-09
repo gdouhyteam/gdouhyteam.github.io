@@ -6,20 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link type="text/css" rel="styleSheet" href="./style.css" />
+  <link type="text/css" rel="styleSheet" href="./row.css" />
   <title>海研</title>
 </head>
 
 <body>
   <div class="background">
-    <nav class="navbar">
+    <nav class="navbar container">
       <div class="nav-left">
-        <span>方向介绍</span>
-        <span>首页</span>
+        <a href="#area">
+          <span>方向介绍</span>
+        </a>
+        <a href="#">
+          <span>首页</span>
+        </a>
       </div>
       <span class="title">海研团队</span>
       <div class="nav-right">
-        <span>作品介绍</span>
-        <span>了解更多</span>
+        <a href="#project">
+          <span>作品介绍</span>
+        </a>
+        <a href="#join">
+          <span>了解更多</span>
+        </a>
       </div>
     </nav>
     <div class="container text-center">
@@ -37,7 +46,7 @@
     </div>
   </div>
 
-  <div class="research-area">
+  <div class="research-area" id="area">
     <div class="triangle-bottom-left"></div>
     <div class="triangle-bottom-right"></div>
 
@@ -46,15 +55,15 @@
 
         <p class="research-area-title">主要方向</p>
         <div class="row">
-          <div class="col-3-md plane">
+          <div class="col-md-offset-1 col-md-3 plane">
             <h1>数据科学</h1>
             <p>数据科学集成了多种领域的不同元素，机器学习，人工智能，可视化，数学建模，以及从数据中析取规律。</p>
           </div>
-          <div class="col-3-md plane">
+          <div class="col-md-3 plane">
             <h1>移动应用开发</h1>
             <p>Android & IOS 移动手机应用APP开发。</p>
           </div>
-          <div class="col-3-md plane">
+          <div class="col-md-3 plane">
             <h1>Web开发</h1>
             <p>网站前后端建设。</p>
           </div>
@@ -65,18 +74,18 @@
 
   </div>
 
-  <div class="black-bg">
+  <div class="black-bg" id="project">
 
     <div class="container text-center">
 
       <p class="research-area-title">作品介绍</p>
 
       <div class="row">
-        <div class="col-6-md plane">
+        <div class="col-md-4  plane">
           <h1>智能应答机器人</h1>
           <img src="./image/robot.webp" />
         </div>
-        <div class="col-6-md plane">
+        <div class="col-md-4 plane">
           <h1>海大树洞小程序</h1>
           <img src="./image/treeHole.webp" />
         </div>
@@ -84,7 +93,7 @@
 
     </div>
 
-    <div class="black-bg">
+    <div class="black-bg" id="join">
 
       <div class="container text-center">
 
