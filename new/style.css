@@ -139,16 +139,103 @@ img{
   border-left: 60px solid transparent;
 }
 
-/* .col-3-md{
-  float: left;
-  width:25%;
+@media (max-width: 1366px) {
+  .triangle-bottom-left {
+    width: 45%;
+    border-bottom: 60px solid #2f343b;
+    border-right: 60px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 45%;
+    border-bottom: 60px solid #2f343b;
+    border-left: 60px solid transparent;
+  }
 }
 
-.col-6-md{
-  float: left;
-  width:40%;
+@media (max-width: 1280px) {
+  .triangle-bottom-left {
+    width: 45%;
+    border-bottom: 50px solid #2f343b;
+    border-right: 50px solid transparent;
+  }
 
-} */
+  .triangle-bottom-right {
+    width: 45%;
+    border-bottom: 50px solid #2f343b;
+    border-left: 50px solid transparent;
+  }
+}
+
+@media (max-width: 1024px) {
+  .triangle-bottom-left {
+    width: 45%;
+    border-bottom: 50px solid #2f343b;
+    border-right: 50px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 45%;
+    border-bottom: 50px solid #2f343b;
+    border-left: 50px solid transparent;
+  }
+}
+
+@media (max-width: 1018px) {
+  .triangle-bottom-left {
+    width: 45%;
+    border-bottom: 40px solid #2f343b;
+    border-right: 40px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 45%;
+    border-bottom: 40px solid #2f343b;
+    border-left: 40px solid transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .triangle-bottom-left {
+    width: 43%;
+    border-bottom: 50px solid #2f343b;
+    border-right: 50px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 43%;
+    border-bottom: 50px solid #2f343b;
+    border-left: 50px solid transparent;
+  }
+}
+
+@media (max-width: 500px) {
+  .triangle-bottom-left {
+    width: 39%;
+    border-bottom: 40px solid #2f343b;
+    border-right: 40px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 39%;
+    border-bottom: 40px solid #2f343b;
+    border-left: 40px solid transparent;
+  }
+}
+
+@media (max-width: 360px) {
+  .triangle-bottom-left {
+    width: 38%;
+    border-bottom: 42px solid #2f343b;
+    border-right: 42px solid transparent;
+  }
+
+  .triangle-bottom-right {
+    width: 38%;
+    border-bottom: 42px solid #2f343b;
+    border-left: 42px solid transparent;
+  }
+}
 
 .research-area{
   margin-top: -110px;
@@ -182,4 +269,18 @@ img{
 .plane p{
   color:black;
   font-size: 20px;
+}
+
+.qq-img{
+  width:400px;
+  margin-top:80px;
+  margin-bottom:80px;
+}
+
+@media (max-width: 768px) {
+  .qq-img{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
