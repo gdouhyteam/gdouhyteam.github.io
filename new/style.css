@@ -124,117 +124,21 @@ img{
 }
 
 .triangle-bottom-left {
-  width: 46%;
+  width: 50%;
   height: 50px;
   float: left;
+  box-sizing: border-box;
   border-bottom: 60px solid #2f343b;
   border-right: 60px solid transparent;
 }
 
 .triangle-bottom-right {
-  width: 46%;
+  width: 50%;
   height: 50px;
   float: right;
+  box-sizing: border-box;
   border-bottom: 60px solid #2f343b;
   border-left: 60px solid transparent;
-}
-
-@media (max-width: 1366px) {
-  .triangle-bottom-left {
-    width: 45%;
-    border-bottom: 60px solid #2f343b;
-    border-right: 60px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 45%;
-    border-bottom: 60px solid #2f343b;
-    border-left: 60px solid transparent;
-  }
-}
-
-@media (max-width: 1280px) {
-  .triangle-bottom-left {
-    width: 45%;
-    border-bottom: 50px solid #2f343b;
-    border-right: 50px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 45%;
-    border-bottom: 50px solid #2f343b;
-    border-left: 50px solid transparent;
-  }
-}
-
-@media (max-width: 1024px) {
-  .triangle-bottom-left {
-    width: 45%;
-    border-bottom: 50px solid #2f343b;
-    border-right: 50px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 45%;
-    border-bottom: 50px solid #2f343b;
-    border-left: 50px solid transparent;
-  }
-}
-
-@media (max-width: 1018px) {
-  .triangle-bottom-left {
-    width: 45%;
-    border-bottom: 40px solid #2f343b;
-    border-right: 40px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 45%;
-    border-bottom: 40px solid #2f343b;
-    border-left: 40px solid transparent;
-  }
-}
-
-@media (max-width: 768px) {
-  .triangle-bottom-left {
-    width: 43%;
-    border-bottom: 50px solid #2f343b;
-    border-right: 50px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 43%;
-    border-bottom: 50px solid #2f343b;
-    border-left: 50px solid transparent;
-  }
-}
-
-@media (max-width: 500px) {
-  .triangle-bottom-left {
-    width: 39%;
-    border-bottom: 40px solid #2f343b;
-    border-right: 40px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 39%;
-    border-bottom: 40px solid #2f343b;
-    border-left: 40px solid transparent;
-  }
-}
-
-@media (max-width: 360px) {
-  .triangle-bottom-left {
-    width: 38%;
-    border-bottom: 42px solid #2f343b;
-    border-right: 42px solid transparent;
-  }
-
-  .triangle-bottom-right {
-    width: 38%;
-    border-bottom: 42px solid #2f343b;
-    border-left: 42px solid transparent;
-  }
 }
 
 .research-area{
