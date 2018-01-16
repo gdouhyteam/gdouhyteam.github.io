@@ -36,15 +36,6 @@ img{
   cursor:pointer;
 }
 
-@media (max-width: 768px) {
-  .nav-left{
-    width: 50%;
-  }
-  .nav-left span{
-    margin-top: 50px;
-  }
-}
-
 .navbar .title{
   color: white;
   font-size: 35px;
@@ -52,12 +43,6 @@ img{
   /* float: left; */
   margin: 0 auto;
   text-align:center;
-}
-
-@media (max-width: 768px) {
-  .navbar .title{
-    width: 25%;
-  }
 }
 
 .nav-right{
@@ -73,6 +58,39 @@ img{
   color: white;
   font-size: 20px;
   cursor:pointer;
+}
+
+@media (max-width: 1024px) {
+  .navbar .title{
+    width: 140px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -70px;
+    /* right: auto; */
+  }
+
+  .nav-left{
+    width: 45%;
+    float: left;
+    padding-top: 60px;
+  }
+
+  .nav-right{
+    width: 50%;
+    float: right;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-left{
+    display: none;
+  }
+
+  .nav-right{
+    display: none;
+  }
 }
 
 .text-center{
@@ -95,13 +113,15 @@ img{
 @media (max-width: 500px) {
   .title{
     float: none;
-    margin: 0px;
+    font-size: 50px;
+    margin: 150px 0 0 0;
   }
 }
 
 .description{
   float: right;
   font-size: 25px;
+  margin-top: 15px;
 }
 
 .join-us{
