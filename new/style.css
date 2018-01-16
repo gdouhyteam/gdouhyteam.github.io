@@ -36,18 +36,33 @@ img{
   cursor:pointer;
 }
 
+@media (max-width: 768px) {
+  .nav-left{
+    width: 50%;
+  }
+  .nav-left span{
+    margin-top: 50px;
+  }
+}
+
 .navbar .title{
   color: white;
   font-size: 35px;
   width: 18%;
-  float: left;
+  /* float: left; */
   margin: 0 auto;
   text-align:center;
 }
 
+@media (max-width: 768px) {
+  .navbar .title{
+    width: 25%;
+  }
+}
+
 .nav-right{
   width: 41%;
-  float: left;
+  float: right;
   padding-top: 10px;
 }
 
@@ -75,6 +90,13 @@ img{
   float: left;
   margin-top: 120px;
   margin-left: 50px;
+}
+
+@media (max-width: 500px) {
+  .title{
+    float: none;
+    margin: 0px;
+  }
 }
 
 .description{
