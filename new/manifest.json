@@ -1,0 +1,13 @@
+{
+  "name":"GDOU-HaiYan",
+  "short_name":"gdouHY",
+  "start_url":".",
+  "background_color":"rgba(0,0,0,0)",
+  "display": "standalone",
+  "description":"a simple pwa",
+  "icons":[{
+    "src":"./image/logo.png",
+    "sizes":"300x300",
+    "type":"image/png"
+  }]
+}
