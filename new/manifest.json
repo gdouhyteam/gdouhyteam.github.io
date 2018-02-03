@@ -1,8 +1,8 @@
 {
   "name":"GDOU-HaiYan",
-  "short_name":"gdouHY",
+  "short_name":"gdou-HY",
   "start_url":".",
-  "background_color":"rgba(0,0,0,0)",
+  "background_color":"#2f343b",
   "display": "standalone",
   "description":"a simple pwa",
   "icons":[{
